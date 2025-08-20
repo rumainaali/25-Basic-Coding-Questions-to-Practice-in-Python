@@ -1,0 +1,10 @@
+# Concatenate strings using join
+def concatenateStrings(string):
+    return ''.join(string)
+
+concatenated_string = concatenateStrings(list(map(str,input("Enter two strings: ").split(" "))))
+print(concatenated_string)
+
+Output:
+Enter two strings: Rumaina is learning python
+Rumainaislearningpython
