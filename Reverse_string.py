@@ -13,6 +13,8 @@ Output:
   olleh 3 2 1
 """
 
+
+
 # Reverse the string - Way 2(Using For Loop)
 def revStr(strings):
     rev_str = ""
