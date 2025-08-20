@@ -17,6 +17,11 @@ if max_num is not None:
 else:
     print("Please give only three numbers")
 
+"""
+Input: Enter three numbers: -1 0 -2
+Output: 0 is the Maximum number
+"""
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Maximum of three numbers - Way 2 (Using max())
@@ -32,11 +37,6 @@ if max_num is not None:
 else:
     print("Please give only three numbers")
 
-
-"""
-Input: Enter three numbers: -1 0 -2
-Output: 0 is the Maximum number
-"""
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Maximum of three numbers - Way 3 (Using Multiple Variables along with max())
