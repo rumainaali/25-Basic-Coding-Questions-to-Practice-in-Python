@@ -1,0 +1,25 @@
+# Concatenate Two Strings - Way 1
+def concatenateStrings(string):
+    if len(string) == 2:
+        return string[0] + string[1]
+    return False
+
+concatenated_string = concatenateStrings(list(map(str,input("Enter two strings: ").split(" "))))
+if concatenated_string:
+    print(concatenated_string)
+else:
+    print("Please enter two strings only")
+
+
+# Concatenate Two Strings using join - Way 2
+def concatenateStrings(string):
+    if len(string) == 2:
+        return ''.join(string)
+    return False
+    
+
+concatenated_string = concatenateStrings(list(map(str,input("Enter two strings: ").split(" "))))
+if concatenated_string:
+    print(concatenated_string)
+else:
+    print("Please enter two strings only")
